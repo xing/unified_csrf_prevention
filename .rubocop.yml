@@ -1,0 +1,24 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - 'spec/dummy/**/*'
+    - 'gems/**/*'
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Layout/IndentationWidth:
+  Enabled: false
+
+Layout/ElseAlignment:
+  Enabled: false
+
+Style/TrailingCommaInLiteral:
+  Enabled: false
+
+Lint/EndAlignment:
+  Enabled: false
